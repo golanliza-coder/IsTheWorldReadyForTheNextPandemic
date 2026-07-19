@@ -1,0 +1,247 @@
+location_key,country_code,country_name,subregion1_code,subregion1_name,subregion2_code,subregion2_name,aggregation_level
+AD,AD,Andorra,,,,,0
+AE,AE,United Arab Emirates,,,,,0
+AF,AF,Afghanistan,,,,,0
+AG,AG,Antigua and Barbuda,,,,,0
+AI,AI,Anguilla,,,,,0
+AL,AL,Albania,,,,,0
+AM,AM,Armenia,,,,,0
+AN,AN,Netherlands Antilles,,,,,0
+AO,AO,Angola,,,,,0
+AQ,AQ,Antarctica,,,,,0
+AR,AR,Argentina,,,,,0
+AS,AS,American Samoa,,,,,0
+AT,AT,Austria,,,,,0
+AU,AU,Australia,,,,,0
+AW,AW,Aruba,,,,,0
+AZ,AZ,Azerbaijan,,,,,0
+BA,BA,Bosnia and Herzegovina,,,,,0
+BB,BB,Barbados,,,,,0
+BD,BD,Bangladesh,,,,,0
+BE,BE,Belgium,,,,,0
+BF,BF,Burkina Faso,,,,,0
+BG,BG,Bulgaria,,,,,0
+BH,BH,Bahrain,,,,,0
+BI,BI,Burundi,,,,,0
+BJ,BJ,Benin,,,,,0
+BM,BM,Bermuda,,,,,0
+BN,BN,Brunei,,,,,0
+BO,BO,Bolivia,,,,,0
+BQ,BQ,Caribbean Netherlands,,,,,0
+BR,BR,Brazil,,,,,0
+BS,BS,Bahamas,,,,,0
+BT,BT,Bhutan,,,,,0
+BV,BV,Bouvet Island,,,,,0
+BW,BW,Botswana,,,,,0
+BY,BY,Belarus,,,,,0
+BZ,BZ,Belize,,,,,0
+CA,CA,Canada,,,,,0
+CC,CC,Cocos Islands,,,,,0
+CD,CD,Democratic Republic of the Congo,,,,,0
+CF,CF,Central African Republic,,,,,0
+CG,CG,Republic of the Congo,,,,,0
+CH,CH,Switzerland,,,,,0
+CI,CI,Ivory Coast,,,,,0
+CK,CK,Cook Islands,,,,,0
+CL,CL,Chile,,,,,0
+CM,CM,Cameroon,,,,,0
+CN,CN,China,,,,,0
+CO,CO,Colombia,,,,,0
+CR,CR,Costa Rica,,,,,0
+CU,CU,Cuba,,,,,0
+CV,CV,Cape Verde,,,,,0
+CW,CW,Curaçao,,,,,0
+CX,CX,Christmas Island,,,,,0
+CY,CY,Cyprus,,,,,0
+CZ,CZ,Czech Republic,,,,,0
+DE,DE,Germany,,,,,0
+DJ,DJ,Djibouti,,,,,0
+DK,DK,Denmark,,,,,0
+DM,DM,Dominica,,,,,0
+DO,DO,Dominican Republic,,,,,0
+DZ,DZ,Algeria,,,,,0
+EC,EC,Ecuador,,,,,0
+EE,EE,Estonia,,,,,0
+EG,EG,Egypt,,,,,0
+EH,EH,Western Sahara,,,,,0
+ER,ER,Eritrea,,,,,0
+ES,ES,Spain,,,,,0
+ET,ET,Ethiopia,,,,,0
+FI,FI,Finland,,,,,0
+FJ,FJ,Fiji,,,,,0
+FK,FK,Falkland Islands,,,,,0
+FM,FM,Micronesia,,,,,0
+FO,FO,Faroe Islands,,,,,0
+FR,FR,France,,,,,0
+GA,GA,Gabon,,,,,0
+GB,GB,United Kingdom,,,,,0
+GD,GD,Grenada,,,,,0
+GE,GE,Georgia,,,,,0
+GF,GF,French Guiana,,,,,0
+GG,GG,Guernsey,,,,,0
+GH,GH,Ghana,,,,,0
+GI,GI,Gibraltar,,,,,0
+GL,GL,Greenland,,,,,0
+GM,GM,Gambia,,,,,0
+GN,GN,Guinea,,,,,0
+GQ,GQ,Equatorial Guinea,,,,,0
+GR,GR,Greece,,,,,0
+GS,GS,South Georgia and the South Sandwich Islands,,,,,0
+GT,GT,Guatemala,,,,,0
+GU,GU,Guam,,,,,0
+GW,GW,Guinea-Bissau,,,,,0
+GY,GY,Guyana,,,,,0
+HK,HK,Hong Kong,,,,,0
+HM,HM,Heard Island and McDonald Islands,,,,,0
+HN,HN,Honduras,,,,,0
+HR,HR,Croatia,,,,,0
+HT,HT,Haiti,,,,,0
+HU,HU,Hungary,,,,,0
+ID,ID,Indonesia,,,,,0
+IE,IE,Ireland,,,,,0
+IL,IL,Israel,,,,,0
+IM,IM,Isle of Man,,,,,0
+IN,IN,India,,,,,0
+IO,IO,British Indian Ocean Territory,,,,,0
+IQ,IQ,Iraq,,,,,0
+IR,IR,Iran,,,,,0
+IS,IS,Iceland,,,,,0
+IT,IT,Italy,,,,,0
+JE,JE,Jersey,,,,,0
+JM,JM,Jamaica,,,,,0
+JO,JO,Jordan,,,,,0
+JP,JP,Japan,,,,,0
+KE,KE,Kenya,,,,,0
+KG,KG,Kyrgyzstan,,,,,0
+KH,KH,Cambodia,,,,,0
+KI,KI,Kiribati,,,,,0
+KM,KM,Comoros,,,,,0
+KN,KN,Saint Kitts and Nevis,,,,,0
+KP,KP,North Korea,,,,,0
+KR,KR,South Korea,,,,,0
+KW,KW,Kuwait,,,,,0
+KY,KY,Cayman Islands,,,,,0
+KZ,KZ,Kazakhstan,,,,,0
+LA,LA,Laos,,,,,0
+LB,LB,Lebanon,,,,,0
+LC,LC,Saint Lucia,,,,,0
+LI,LI,Liechtenstein,,,,,0
+LK,LK,Sri Lanka,,,,,0
+LR,LR,Liberia,,,,,0
+LS,LS,Lesotho,,,,,0
+LT,LT,Lithuania,,,,,0
+LU,LU,Luxembourg,,,,,0
+LV,LV,Latvia,,,,,0
+LY,LY,Libya,,,,,0
+MA,MA,Morocco,,,,,0
+MC,MC,Monaco,,,,,0
+MD,MD,Moldova,,,,,0
+ME,ME,Montenegro,,,,,0
+MG,MG,Madagascar,,,,,0
+MH,MH,Marshall Islands,,,,,0
+MK,MK,Macedonia,,,,,0
+ML,ML,Mali,,,,,0
+MM,MM,Myanmar,,,,,0
+MN,MN,Mongolia,,,,,0
+MO,MO,Macau,,,,,0
+MP,MP,Northern Mariana Islands,,,,,0
+MQ,MQ,Martinique,,,,,0
+MR,MR,Mauritania,,,,,0
+MS,MS,Montserrat,,,,,0
+MT,MT,Malta,,,,,0
+MU,MU,Mauritius,,,,,0
+MV,MV,Maldives,,,,,0
+MW,MW,Malawi,,,,,0
+MX,MX,Mexico,,,,,0
+MY,MY,Malaysia,,,,,0
+MZ,MZ,Mozambique,,,,,0
+,,Namibia,,,,,0
+NC,NC,New Caledonia,,,,,0
+NE,NE,Niger,,,,,0
+NF,NF,Norfolk Island,,,,,0
+NG,NG,Nigeria,,,,,0
+NI,NI,Nicaragua,,,,,0
+NL,NL,Netherlands,,,,,0
+NO,NO,Norway,,,,,0
+NP,NP,Nepal,,,,,0
+NR,NR,Nauru,,,,,0
+NU,NU,Niue,,,,,0
+NZ,NZ,New Zealand,,,,,0
+OM,OM,Oman,,,,,0
+PA,PA,Panama,,,,,0
+PE,PE,Peru,,,,,0
+PF,PF,French Polynesia,,,,,0
+PG,PG,Papua New Guinea,,,,,0
+PH,PH,Philippines,,,,,0
+PK,PK,Pakistan,,,,,0
+PL,PL,Poland,,,,,0
+PN,PN,Pitcairn Islands,,,,,0
+PR,PR,Puerto Rico,,,,,0
+PS,PS,Palestine,,,,,0
+PT,PT,Portugal,,,,,0
+PW,PW,Palau,,,,,0
+PY,PY,Paraguay,,,,,0
+QA,QA,Qatar,,,,,0
+RE,RE,Réunion,,,,,0
+RO,RO,Romania,,,,,0
+RS,RS,Serbia,,,,,0
+RU,RU,Russia,,,,,0
+RW,RW,Rwanda,,,,,0
+SA,SA,Saudi Arabia,,,,,0
+SB,SB,Solomon Islands,,,,,0
+SC,SC,Seychelles,,,,,0
+SD,SD,Sudan,,,,,0
+SE,SE,Sweden,,,,,0
+SG,SG,Singapore,,,,,0
+SH,SH,Saint Helena,,,,,0
+SI,SI,Slovenia,,,,,0
+SJ,SJ,Svalbard and Jan Mayen,,,,,0
+SK,SK,Slovakia,,,,,0
+SL,SL,Sierra Leone,,,,,0
+SM,SM,San Marino,,,,,0
+SN,SN,Senegal,,,,,0
+SO,SO,Somalia,,,,,0
+SR,SR,Suriname,,,,,0
+SS,SS,South Sudan,,,,,0
+ST,ST,São Tomé and Príncipe,,,,,0
+SV,SV,El Salvador,,,,,0
+SX,SX,Sint Maarten,,,,,0
+SY,SY,Syria,,,,,0
+SZ,SZ,Swaziland,,,,,0
+TC,TC,Turks and Caicos Islands,,,,,0
+TD,TD,Chad,,,,,0
+TF,TF,French Southern Territories,,,,,0
+TG,TG,Togo,,,,,0
+TH,TH,Thailand,,,,,0
+TJ,TJ,Tajikistan,,,,,0
+TK,TK,Tokelau,,,,,0
+TL,TL,East Timor,,,,,0
+TM,TM,Turkmenistan,,,,,0
+TN,TN,Tunisia,,,,,0
+TO,TO,Tonga,,,,,0
+TR,TR,Turkey,,,,,0
+TT,TT,Trinidad and Tobago,,,,,0
+TV,TV,Tuvalu,,,,,0
+TW,TW,Taiwan,,,,,0
+TZ,TZ,Tanzania,,,,,0
+UA,UA,Ukraine,,,,,0
+UG,UG,Uganda,,,,,0
+UM,UM,United States Minor Outlying Islands,,,,,0
+US,US,United States of America,,,,,0
+UY,UY,Uruguay,,,,,0
+UZ,UZ,Uzbekistan,,,,,0
+VA,VA,Vatican City,,,,,0
+VC,VC,Saint Vincent and the Grenadines,,,,,0
+VE,VE,Venezuela,,,,,0
+VG,VG,British Virgin Islands,,,,,0
+VI,VI,United States Virgin Islands,,,,,0
+VN,VN,Vietnam,,,,,0
+VU,VU,Vanuatu,,,,,0
+WF,WF,Wallis and Futuna,,,,,0
+WS,WS,Samoa,,,,,0
+XK,XK,Kosovo,,,,,0
+YE,YE,Yemen,,,,,0
+YT,YT,Mayotte,,,,,0
+ZA,ZA,South Africa,,,,,0
+ZM,ZM,Zambia,,,,,0
+ZW,ZW,Zimbabwe,,,,,0
