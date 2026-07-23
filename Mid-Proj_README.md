@@ -46,9 +46,7 @@ Our dataset files were driven from different resources. Below you can find files
 * **`GHSI` site**: `2021-GHS-Index-April-2022.csv`.
 * **`https://ourworldindata.org` site**: `ict adoption by 100 people.csv`.
 
-### Open Issue:
-It is not clear what data if any needed to be placed in data/processed directory.
-AI Shlomit to advise on the same
+
 
 ---
 
@@ -63,7 +61,7 @@ Our workflow follows the standard crisp-dm framework for data science projects:
     2.4 Pull in X5 feature from `GHSI`csv file.
     2.5 Merging `GHS-Index` and `ICT_Adoption`csv files in order to get X6 feature.
     2.6 Merging `epidemiology` and `demographics`csv files in order to get X7 feature.
-    2.7 Pull in X8 and X9 features from `demographics`csv file.
+
     
 3. **Feature Engineering**: Analyze what are the most important/effective features to used during modeling that answer the research query.
 
@@ -83,9 +81,7 @@ Our workflow follows the standard crisp-dm framework for data science projects:
     
     X7 - Percentage of the population aged 60+ (%) 
 
-    X8 - Prevalence of smokers in the population (%) 
-
-    X9 - Prevalence of diabetes in the population (%)
+    
 
 4. **Predictive Modeling**: 
     
@@ -105,15 +101,15 @@ Our workflow follows the standard crisp-dm framework for data science projects:
 * `01_Merge_and_Statistic_IsTheWorldReadyForTheNextPandemic.ipynb`: Preparation of the actual base dataset which trainig model will run upon - align per Country code.
 * `02_Merge_Static_Base_IsTheWorldReadyForTheNextPandemic.ipynb`: Running of a comprehensive Exploratory Data Analysis on base dataSet ready for modeling + descriptive statistic.
 * `03_Merge_Static_Base_IsTheWorldReadyForTheNextPandemic.ipynb`: Re-arrange base data by aligning it to be yearly based and prepare it for data modeling.
-* `04_The Feature Matrix_of_IsTheWorldReadyForTheNextPandemic.ipynb`: Feature matrix of the model.
+* `04_Logistic Regression_Vs_ Random Forrest_IsTheWorldReadyForTheNextPandemic.ipynb`: Feature matrix of the model.
 * `05_Logistic Regression_Vs_ Random Forrest_IsTheWorldReadyForTheNextPandemic.ipynb`: Model training - Random Forest Classifier vs Logistic Regression, confusion matrix,Scatter Plot and Violin Plot.
 
 ---
 
 ## 5. Models Tested & Results
 Following Supervised modeling were used
-* **Logistic Regression**
-* **Random Forest Classifier** - this one was given the best accuracy - 83.32%.
+* **Logistic Regression** - this one was given the best accuracy - 82.91%.
+* **Random Forest Classifier** - this one was given accuracy almost similar to Logistic Regression - 82.74%.
 
 
 ---
@@ -121,6 +117,18 @@ Following Supervised modeling were used
 ## 6. Main Results
 Main analysis results are as follow
 
+New run with 7 features:
+
+### 📊 טבלת השוואה רשמית: מודל הבסיס מול המודל המתקדם (ממוצע ± סטיית תקן)
+| Metric / מדד ביצוע | Logistic Regression (Winner - Baseline 🏆) | Random Forest |
+| :--- | :---: | :---: |
+| 📈 דיוק כללי (Accuracy) | **82.91% (±4.36%)** | 82.74% (±4.27%) |
+| 🎯 ציון F1-Score | **83.70% (±4.21%)** | 82.50% (±4.78%) |
+| 🔍 רגישות (Recall) | **87.55% (±7.26%)** | 81.91% (±8.79%) |
+| 📍 דיוק הסיווג (Precision) | 80.70% (±5.61%) | **84.03% (±6.15%)** |
+
+
+OLD run with 9 features
 ### 📊 טבלת השוואה רשמית: מודל הבסיס מול המודל המתקדם (ממוצע ± סטיית תקן)
 
 | Metric / מדד ביצוע | Logistic Regression (Baseline) | Random Forest (Winner 🏆) |
@@ -132,8 +140,17 @@ Main analysis results are as follow
 
 ---
 
-## 7. Running Instructions [TBD]
-Whatneed to be added?...
+## 7. Running Instructions
+### Requirements
+- Python - TBD 
+- Libraries: `numpy`, `pandas`, `scikit-learn`, `matplotlib`, `seaborn` , `warnnings` 
+
+### Setup
+
+### Comment
+- Due to technical issues, instructions how to execute the notebooks and the actual py files will be provided later on.
+
+
 
 ---
 
@@ -163,7 +180,28 @@ Whatneed to be added?...
 ---
 
 
-## 9. Next Steps... [TBD]
-Main analysis results...
+## 9. Next Steps... [Hodaya's feedback - 2nd review is required]
+
+Based on our initial modeling results and performance evaluations (where Random Forest achieved an accuracy of ~83.55%), we have identified several key avenues to expand and enhance the project: 
+
+* **Per-Capita & Relative Metric Refinement**:Refine the target label (Y) by evaluating alternative preparedness indicators, such as crude mortality per capita or time-to-vaccine-rollout, to prevent population size bias across varying demographic scales. 
+
+* **Expanding Risk Factor Data**:Gather more detailed and updated datasets on country-level comorbidity metrics—specifically smoking prevalence and diabetes percentages—to better account for population vulnerability.
+
+* **Incorporating Additional Data Sources**:Integrate richer socio-economic and institutional features, such as government stringency indices, public health expenditure percentages, and real-time medical supply infrastructure. 
+
+* **Cross-Epidemic Generalization & Validation**:Test and validate the model on historical datasets from other global health emergencies—such as H1N1 (2009), Ebola, or SARS—to verify whether the model generalizes well across different pathogen transmission dynamics rather than being overfitted exclusively to COVID-19 patterns. 
+
+* **Exploring Advanced & Ensemble Models**:Beyond Logistic Regression and Random Forest, evaluating gradient boosting algorithms (e.g., XGBoost, LightGBM, and CatBoost) alongside Neural Networks is worthwhile to determine whether capturing complex non-linear feature interactions can further boost predictive precision and F1-score. 
+
+* **Hyperparameter Tuning & Feature Selection**:Perform systematic hyperparameter optimization and conduct deeper feature importance analysis (e.g., using SHAP values) to identify which health, demographic, or economic indicators contribute most significantly to pandemic preparedness. 
+
+
+
+
+
+
+
+
 
 ---
