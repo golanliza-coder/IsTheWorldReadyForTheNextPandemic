@@ -180,28 +180,20 @@ OLD run with 9 features
 ---
 
 
-## 9. Next Steps... [Hodaya's feedback - 2nd review is required]
+## 9. Next Steps...
 
-Based on our initial modeling results and performance evaluations (where Random Forest achieved an accuracy of ~83.55%), we have identified several key avenues to expand and enhance the project: 
+Based on our initial modeling results and performance evaluations (where Random Forest achieved an accuracy of ~82.74%), we have identified several key avenues to expand and enhance the project: 
 
-* **Per-Capita & Relative Metric Refinement**:Refine the target label (Y) by evaluating alternative preparedness indicators, such as crude mortality per capita or time-to-vaccine-rollout, to prevent population size bias across varying demographic scales. 
+* **Relative Metric Refinement**: Refine the target label (image.png) by evaluating alternative preparedness indicators, such as time-to-vaccine-rollout.
 
-* **Expanding Risk Factor Data**:Gather more detailed and updated datasets on country-level comorbidity metrics—specifically smoking prevalence and diabetes percentages—to better account for population vulnerability.
+* **Expanding Risk Factor Data**: Gather more detailed and updated datasets on country-level comorbidity metrics
+Incorporating Additional Data Sources: Integrate richer socio-economic and institutional features, such as government stringency indices, public health expenditure percentages, etc.
 
-* **Incorporating Additional Data Sources**:Integrate richer socio-economic and institutional features, such as government stringency indices, public health expenditure percentages, and real-time medical supply infrastructure. 
+* **Cross-Epidemic Generalization & Validation**: Test and validate the model on historical datasets from other global health emergencies—such as H1N1 (2009), Ebola, or SARS—to verify whether the model generalizes well across different pathogen transmission dynamics rather than being overfitted exclusively to COVID-19 patterns.
 
-* **Cross-Epidemic Generalization & Validation**:Test and validate the model on historical datasets from other global health emergencies—such as H1N1 (2009), Ebola, or SARS—to verify whether the model generalizes well across different pathogen transmission dynamics rather than being overfitted exclusively to COVID-19 patterns. 
+* **Exploring Advanced & Ensemble Models**: Beyond Logistic Regression and Random Forest, evaluating gradient boosting algorithms (e.g., XGBoost, LightGBM, and CatBoost) alongside Neural Networks is worthwhile to determine whether capturing complex non-linear feature interactions can further boost predictive precision and F1-score.
 
-* **Exploring Advanced & Ensemble Models**:Beyond Logistic Regression and Random Forest, evaluating gradient boosting algorithms (e.g., XGBoost, LightGBM, and CatBoost) alongside Neural Networks is worthwhile to determine whether capturing complex non-linear feature interactions can further boost predictive precision and F1-score. 
-
-* **Hyperparameter Tuning & Feature Selection**:Perform systematic hyperparameter optimization and conduct deeper feature importance analysis (e.g., using SHAP values) to identify which health, demographic, or economic indicators contribute most significantly to pandemic preparedness. 
-
-
-
-
-
-
-
+* **Hyperparameter Tuning & Feature Selection**: Perform s hyperparameter optimization and conduct deeper feature importance analysis 
 
 
 ---
