@@ -142,15 +142,26 @@ OLD run with 9 features
 
 ## 7. Running Instructions
 ### Requirements
-- Python - TBD 
+- Python - 3.12 
 - Libraries: `numpy`, `pandas`, `scikit-learn`, `matplotlib`, `seaborn` , `warnnings` 
 
-### Setup
+### General
+- Since few of the origin dataset files [vaccinations and epidiomlogy] are huge in size, it wasn't inserted
+to GitHub and reference to its location placed in this file and in data_dictionary_MiniProject.md as well.
+  This create issue in executing py files located in git branch.
+  please refer to execution guidelines.
 
-### Comment
-- Due to technical issues, instructions how to execute the notebooks and the actual py files will be provided later on.
+### Execution guidelines
 
+Due to the large size of the data files, the `data` folder is not included in this GitHub repository. To run the code successfully, please follow these steps:
 
+1. **Download the Code:** Download the `.py` script from this repository to your local machine.
+2. **Download the Data:** Click the following link to download the complete `data` folder from Google Drive:
+   [Google Drive Data Folder](https://drive.google.com/drive/folders/1426T_n3An72gi1EWMsGM-mJx5qhVvgMG?usp=sharing)
+3. **File Placement:** Ensure that the extracted `data` folder is placed in the same directory (the same root folder) as your `.py` script.
+4. **Install Dependencies:** Run the following command in your terminal:
+   ```bash
+   pip install -r requirements.txt
 
 ---
 
